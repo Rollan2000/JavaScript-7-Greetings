@@ -1,0 +1,72 @@
+<!doctype html>
+<html>
+  <head>
+    <title>JavaScript 7 - Greetings</title>
+    
+
+  </head>
+
+
+
+
+
+
+
+    <script>
+
+
+      var today = new Date();
+
+      var day = today.getDay(); // A number between 0-6
+
+      var hour = today.getHours(); // A number between 0-23
+
+
+
+
+//*mouse click right, press inspect, and press console to see results*
+
+//If before noon output “Good Morning”
+if (hour < 12) 
+{
+  console.log("Good morning!");
+} 
+else if (hour >= 12) 
+
+//If after noon output “Good Afternoon”
+{
+  console.log("Good afternoon!");
+}
+
+//If Monday, output “Do you have a case of the Mondays?”
+if (day === 1) 
+{
+  console.log("Do you have a case of the Mondays?");
+} 
+
+
+//Celebrate EASTER DAY
+else if (day === 3)
+{
+  console.log("Happy EASTER!");
+} 
+    </script>
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</html>
